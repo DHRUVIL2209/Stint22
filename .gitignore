@@ -1,0 +1,47 @@
+# ---------------------------------------
+# Stint22 - Git Ignore
+# ---------------------------------------
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*~
+
+# PHP dependency folders
+/vendor/
+
+# Composer local files
+composer.phar
+
+# Environment / secret configuration
+.env
+.env.*
+!.env.example
+
+# Local database backups
+*.sql.bak
+*.sql.backup
+*.dump
+
+# WampServer / local server files
+.wamp/
+wamp/
+wamp64/
+
+# Windows temporary files
+~$*
